@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    align-items: center;
+    margin: 0 0 2.5em;
+    input {
+        width: 75%;
+        background-color: transform;
+        padding: 1em 1.5em;
+        font-size: 18px;
+        font-size: 1.125em;
+        font-size: 1.125rem;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+        background-color: transparent;
+        color: #ffb142;
+        border: 2px solid #ffb142;
+    }
+    button {
+        width: 25%;
+        padding: 0.61em 0 0.6em;
+        font-size: 24px;
+        font-size: 1.5em;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        background-color: #40407a;
+        border: 2px solid #ffb142;
+        border-left: none;
+        color: #ffb142;
+        cursor: pointer;
+        border-radius: 0 25px 25px 0;
+        &:hover {
+            background-color: rgba(#ffb142, 0.1);
+        }
+    }
+}
